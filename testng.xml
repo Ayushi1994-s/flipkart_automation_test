@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+	
+<suite thread-count="-2" guice-stage="DEVELOPMENT" name="Default suite">
+
+
+	  <test name="ChromeTest">
+
+		<parameter name="browser" value="Chrome" />
+
+	<classes>
+
+		<class name="Demo.NewTest">
+		
+		</class>
+
+	</classes>
+
+</test>
+
+<test name="FirefoxTest">
+
+	<parameter name="browser" value="Firefox" />
+
+<classes>
+
+	<class name="Demo.NewTest">
+
+		</class>
+
+</classes>
+
+	 
+</test>
+
+	</suite> <!-- Default suite -->
+            

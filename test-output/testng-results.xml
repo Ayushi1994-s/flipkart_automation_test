@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="129557" started-at="2020-03-01T15:04:28Z" finished-at="2020-03-01T15:06:37Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="66831" started-at="2020-03-01T15:04:28Z" finished-at="2020-03-01T15:05:34Z">
+      <class name="Demo.NewTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Demo.NewTest@1f57539]" name="setup" is-config="true" duration-ms="14734" started-at="2020-03-01T20:34:28Z" finished-at="2020-03-01T20:34:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TitleCheck()[pri:0, instance:Demo.NewTest@1f57539]" name="TitleCheck" duration-ms="52072" started-at="2020-03-01T20:34:42Z" finished-at="2020-03-01T20:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleCheck -->
+      </class> <!-- Demo.NewTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="62679" started-at="2020-03-01T15:05:35Z" finished-at="2020-03-01T15:06:37Z">
+      <class name="Demo.NewTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Demo.NewTest@7e2d773b]" name="setup" is-config="true" duration-ms="12282" started-at="2020-03-01T20:35:35Z" finished-at="2020-03-01T20:35:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TitleCheck()[pri:0, instance:Demo.NewTest@7e2d773b]" name="TitleCheck" duration-ms="50391" started-at="2020-03-01T20:35:47Z" finished-at="2020-03-01T20:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleCheck -->
+      </class> <!-- Demo.NewTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Default suite -->
+</testng-results>
